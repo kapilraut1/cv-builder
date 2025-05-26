@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h1{
+    font-size: 2rem;
+    color: #333;
+    margin: 1rem;
+        text-align: center;
+
+}
+
+p{
+    font-size: 1rem;
+    color: #666;
+    margin: 0.5rem 1rem;
+  visibility: visible;
+  animation: fadeIn 0.5s ease-in forwards;
+      text-align: center;
+
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
